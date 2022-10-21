@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #334B49;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.btForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 2vh 0 2vh 0;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  width: 15vw;
+  height: 5vh;
+  background-color: #D3E6E4;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  transition-duration: 0.1s;
+}
+
+button:active {
+  background-color: #7CB6B1;
+  color: #000000;
+  box-shadow: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10vw 5px 10vw;
+  width: 80vw;
+  height: 5vh;
+}
+
+.spanList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: inherit;
+  background-color: #7CB6B1;
+  color: #000000;
+  border-radius: 10px;
+  margin: 3px;
+  font-weight: bold;
+}
+
+.spanData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: inherit;
+  background-color: #D3E6E4;
+  border-radius: 10px;
+  margin: 3px
+}
