@@ -15,17 +15,24 @@ function WeatherMain() {
   return (
     <>
       <h1>날씨예보</h1>
+      <form>
+        <button className="homeBt">홈으로</button>
+      </form>
       <form className="btForm">
-        <button onClick={((e) => { e.preventDefault(); handleClick(3); })}>
+        <button className="wmBt"
+          onClick={((e) => { e.preventDefault(); handleClick(3); })}>
           3일 후 날씨
         </button>
-        <button onClick={((e) => { e.preventDefault(); handleClick(4); })}>
+        <button className="wmBt"
+          onClick={((e) => { e.preventDefault(); handleClick(4); })}>
           4일 후 날씨
         </button>
-        <button onClick={((e) => { e.preventDefault(); handleClick(5); })}>
+        <button className="wmBt"
+          onClick={((e) => { e.preventDefault(); handleClick(5); })}>
           5일 후 날씨
         </button>
-        <button onClick={((e) => { e.preventDefault(); handleClick(6); })}>
+        <button className="wmBt"
+          onClick={((e) => { e.preventDefault(); handleClick(6); })}>
           6일 후 날씨
         </button>
       </form>

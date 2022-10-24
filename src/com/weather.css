@@ -14,23 +14,61 @@ h1 {
   font-weight: bolder;
 }
 
+.homeForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh;
+}
+
+.weatherM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vw;
+  width: 50vw;
+  height: 15vh;
+  background-color: #D3E6E4;
+  font-size: x-large;
+  font-weight: bolder;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  transition-duration: 0.1s;
+}
+.homeBt {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 20vw;
+  height: 5vh;
+  background-color: #334B49;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  transition-duration: 0.1s;
+  color: white;
+}
+
 .btForm {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px;
-  margin: 2vh 0 2vh 0;
+  margin: 2vh;
 }
 
-button {
+.wmBt {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin: 3px;
-  width: 15vw;
+  margin: 5px 10px 5px 10px;
+  width: 20vw;
   height: 5vh;
   background-color: #D3E6E4;
-  color: #000000;
   font-weight: bold;
   border: none;
   border-radius: 15px;
@@ -38,10 +76,18 @@ button {
   transition-duration: 0.1s;
 }
 
-button:active {
+button:hover {
   background-color: #7CB6B1;
   color: #000000;
+}
+
+button:active {
+  background-color: #7CB6B1;
   box-shadow: none;
+}
+
+ul {
+  margin: 10px;
 }
 
 li {
@@ -50,27 +96,29 @@ li {
   align-items: center;
   margin: 0 10vw 5px 10vw;
   width: 80vw;
-  height: 5vh;
+  height: 8vh;
 }
 
 .spanList {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20vw;
+  width: 35vw;
   height: inherit;
+  line-height: 160%;
   background-color: #7CB6B1;
   color: #000000;
   border-radius: 10px;
   margin: 3px;
   font-weight: bold;
+  text-align: center;
 }
 
 .spanData {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20vw;
+  width: 35vw;
   height: inherit;
   background-color: #D3E6E4;
   border-radius: 10px;

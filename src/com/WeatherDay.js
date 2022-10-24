@@ -22,7 +22,7 @@ function WeatherDay(props) {
       <ul className='detailUl'>
         <li>
           <span className='spanList'>
-            {d}일 후 오전 강수량
+            {d}일 후<br />오전 강수량
           </span>
           <span className='spanData'>
             {items[0]}
@@ -30,21 +30,21 @@ function WeatherDay(props) {
         </li>
         <li>
           <span className='spanList'>
-            {d}일 후 오후 강수량
+            {d}일 후<br />오후 강수량
           </span>
           <span className='spanData'>
             {items[1]}
           </span></li>
         <li>
           <span className='spanList'>
-            {d}일 후 오전 날씨예보
+            {d}일 후<br />오전 날씨예보
           </span>
           <span className='spanData'>
             {items[2]}
           </span></li>
         <li>
           <span className='spanList'>
-            {d}일 후 오전 날씨예보
+            {d}일 후<br />오전 날씨예보
           </span>
           <span className='spanData'>
             {items[3]}
