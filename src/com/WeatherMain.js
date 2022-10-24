@@ -21,19 +21,19 @@ function WeatherMain() {
       <form className="btForm">
         <button className="wmBt"
           onClick={((e) => { e.preventDefault(); handleClick(3); })}>
-          3일 후 날씨
+          3일 후
         </button>
         <button className="wmBt"
           onClick={((e) => { e.preventDefault(); handleClick(4); })}>
-          4일 후 날씨
+          4일 후
         </button>
         <button className="wmBt"
           onClick={((e) => { e.preventDefault(); handleClick(5); })}>
-          5일 후 날씨
+          5일 후
         </button>
         <button className="wmBt"
           onClick={((e) => { e.preventDefault(); handleClick(6); })}>
-          6일 후 날씨
+          6일 후
         </button>
       </form>
       {/* 속성값 부여 > WeatherDay에서 props 사용가능 */}

@@ -25,7 +25,7 @@ function WeatherDay(props) {
             {d}일 후<br />오전 강수량
           </span>
           <span className='spanData'>
-            {items[0]}
+            {items[0]}%
           </span>
         </li>
         <li>
@@ -33,7 +33,7 @@ function WeatherDay(props) {
             {d}일 후<br />오후 강수량
           </span>
           <span className='spanData'>
-            {items[1]}
+            {items[1]}%
           </span></li>
         <li>
           <span className='spanList'>

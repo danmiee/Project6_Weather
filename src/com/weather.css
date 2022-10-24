@@ -1,3 +1,4 @@
+/* 공통 */
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +10,12 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #334B49;
+  background-color: #BF5748;
   color: #ffffff;
   font-weight: bolder;
 }
 
+/* Home */
 .homeForm {
   display: flex;
   flex-wrap: wrap;
@@ -29,7 +31,7 @@ h1 {
   margin: 5vw;
   width: 50vw;
   height: 15vh;
-  background-color: #D3E6E4;
+  background-color: #FFECE4;
   font-size: x-large;
   font-weight: bolder;
   border: none;
@@ -37,14 +39,40 @@ h1 {
   box-shadow: 3px 3px 3px gray;
   transition-duration: 0.1s;
 }
+
+/* WeatherMain */
+.btForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5vh 0 5vh 0;
+}
+
+.wmBt {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 20vw;
+  height: 5vh;
+  background-color: #FFECE4;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px gray;
+  transition-duration: 0.1s;
+}
+
+/* WeatherMain & WeatherMain2 */
 .homeBt {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
-  width: 20vw;
-  height: 5vh;
-  background-color: #334B49;
+  width: 100px;
+  height: 50px;
+  background-color: #BF5748;
   font-weight: bold;
   border: none;
   border-radius: 15px;
@@ -53,40 +81,21 @@ h1 {
   color: white;
 }
 
-.btForm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  margin: 2vh;
-}
-
-.wmBt {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5px 10px 5px 10px;
-  width: 20vw;
-  height: 5vh;
-  background-color: #D3E6E4;
-  font-weight: bold;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 3px 3px 3px gray;
-  transition-duration: 0.1s;
-}
-
 button:hover {
-  background-color: #7CB6B1;
+  background-color: #FC8C79;
   color: #000000;
 }
 
 button:active {
-  background-color: #7CB6B1;
+  background-color: #FC8C79;
   box-shadow: none;
 }
 
 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
 }
 
@@ -95,7 +104,7 @@ li {
   justify-content: center;
   align-items: center;
   margin: 0 10vw 5px 10vw;
-  width: 80vw;
+  width: 600px;
   height: 8vh;
 }
 
@@ -103,10 +112,10 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35vw;
+  width: 30vw;
   height: inherit;
   line-height: 160%;
-  background-color: #7CB6B1;
+  background-color: #FC8C79;
   color: #000000;
   border-radius: 10px;
   margin: 3px;
@@ -118,9 +127,9 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35vw;
+  width: 30vw;
   height: inherit;
-  background-color: #D3E6E4;
+  background-color: #FFECE4;
   border-radius: 10px;
   margin: 3px
 }
