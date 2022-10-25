@@ -11,8 +11,8 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/wm1" element={<WeatherMain />} />
-        <Route path="/wm2" element={<WeatherMain2 />} />
+        <Route path="/wm1" element={<WeatherMain2 />} />
+        <Route path="/wm2" element={<WeatherMain />} />
       </Routes>
     </>
   );
