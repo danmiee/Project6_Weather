@@ -2,4 +2,4 @@
 
 ## 웹사이트
 
-https://danmiee.github.io/Project6_Weather/
+https://danmiee.github.io/
