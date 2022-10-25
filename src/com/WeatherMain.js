@@ -15,9 +15,6 @@ function WeatherMain() {
   return (
     <>
       <h1>날씨예보</h1>
-      <form>
-        <button className="homeBt">홈으로</button>
-      </form>
       <form className="btForm">
         <button className="wmBt"
           onClick={((e) => { e.preventDefault(); handleClick(3); })}>

@@ -48,9 +48,6 @@ function WeatherMain2() {
   return (
     <>
       <h1>날씨예보 - 단기정보</h1>
-      <form>
-        <button className='homeBt'>홈으로</button>
-      </form>
       <ul className="detailUl">
         {lis}
       </ul>

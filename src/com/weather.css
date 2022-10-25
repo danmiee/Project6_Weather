@@ -15,6 +15,29 @@ h1 {
   font-weight: bolder;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* Nav */
+.navUl {
+  margin: 10vh 0 15vh 0;
+}
+
+.navLi {
+  margin: 3vh;
+}
+
+.navP {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navSpan {
+  text-decoration-line: underline;
+  text-decoration-color: brown;
+}
+
 /* Home */
 .homeForm {
   display: flex;
