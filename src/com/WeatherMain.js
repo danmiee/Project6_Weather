@@ -1,4 +1,5 @@
 // 원하는 정보의 key를 WeatherDay로 전송
+import { Link } from 'react-router-dom'
 import WeatherDay from "./WeatherDay";
 import { useState } from "react";
 import './weather.css'
@@ -15,6 +16,9 @@ function WeatherMain() {
   return (
     <>
       <h1>날씨예보</h1>
+      <form>
+        <Link to='/'><button className="homeBt">홈으로</button></Link>
+      </form>
       <form className="btForm">
         <button className="wmBt"
           onClick={((e) => { e.preventDefault(); handleClick(3); })}>

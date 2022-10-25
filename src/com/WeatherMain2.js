@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import item from '../db/item.json'
 import weather2 from '../db/weather2.json'
 import '../com/weather.css'
@@ -48,6 +49,9 @@ function WeatherMain2() {
   return (
     <>
       <h1>날씨예보 - 단기정보</h1>
+      <form>
+        <Link to='/'><button className="homeBt">홈으로</button></Link>
+      </form>
       <ul className="detailUl">
         {lis}
       </ul>
