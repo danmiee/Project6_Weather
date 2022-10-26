@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 function Page1() {
   const params = useParams();
   const item = params.item;
-  // App.js path 설정 시 사용한 key와 동일하게 기재
+  // Home.js path 설정 시 사용한 key와 동일하게 기재
 
   return (  
     <>
