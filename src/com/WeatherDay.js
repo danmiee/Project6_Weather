@@ -44,7 +44,7 @@ function WeatherDay(props) {
           </span></li>
         <li>
           <span className='spanList'>
-            {d}일 후<br />오전 날씨예보
+            {d}일 후<br />오후 날씨예보
           </span>
           <span className='spanData'>
             {items[3]}
